@@ -1,0 +1,2 @@
+# load foundation
+$(document).foundation()
