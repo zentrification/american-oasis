@@ -13,6 +13,6 @@ use Rack::Coffee,
 
 use Rack::Static,
   root: 'public',
-  urls: ['/images', '/javascripts', '/stylesheets']
+  urls: ['/fonts', '/images', '/javascripts', '/stylesheets']
 
 run Sinatra::Application

@@ -1,18 +1,91 @@
+@import 'nv.d3.css'
 @import 'normalize'
 @import 'foundation'
+
+$content-color: #444
+
+@font-face
+  font-family: DINWeb-Medium
+  src: url("/fonts/DINWeb-Medium.eot")
+@font-face
+  font-family: DINWeb-Medium
+  src: url("/fonts/DINWeb-Medium.woff") format("woff")
 
 .chapter-heading
   position: relative
 
 // img in the heading will determine the box
 .chapter-heading-text
+  bottom: 2em
   position: absolute
-  top: 0
   width: 100%
 
+  h1
+    color: #fcfcfc
+    font: 3.5em DINWeb-Medium, sans-serif
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5)
+    text-transform: uppercase
+  p
+    color: #fcfcfc
+    font: 1.1em "adobe-garamond-pro", sans-serif
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2)
+    span.grayed
+      color: #cccccc
+    span.larger.italic
+      font-size: 1.1em
+      font-style: italic
+
 .chapter-content
-  font-family: serif
+  font-family: adobe-garamond-pro, sans-serif
   padding-top: 3em
 
   p
-    color: #444
+    color: $content-color
+
+  // dropcap on first letter of first paragraph
+  div.row:first-child p:first-child:first-letter
+    float: left
+    font-size: 3.2em
+    line-height: 0.6em
+    padding: 10px
+
+  h3.media-title
+    color: #4d4d4d
+    font-size: 1.4em
+    font-weight: normal
+    text-transform: uppercase
+
+  // customize modal links
+  a.modal
+    background: #e4e4e4
+    border-radius: 10px 10px 10px 10px
+    color: $content-color
+    padding: 0 0.5em
+    transition: background-color 1s ease
+    white-space: nowrap
+    &:after
+      content: ' +'
+    &:hover
+      background: #629ecd
+
+  p.blockquote
+    font-size: 1.3em
+    font-style: italic
+
+  // customize line breaks
+  hr
+    border-bottom: 1px solid #e3e3e3
+    border-top: 1px solid #818181
+    // media query this
+    margin:
+      right: 8em
+      left: 4em
+      bottom: 2em
+
+// chapter 1
+#chapter1
+  h3.media-title
+    text-align: right
+
+#multigraph svg
+  height: 300px

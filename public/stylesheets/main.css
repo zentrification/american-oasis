@@ -1,3 +1,4 @@
+@import url(nv.d3.css);
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -4319,16 +4320,74 @@ a.th {
   .f-dropdown.large {
     max-width: 800px; }
 
+@font-face {
+  font-family: DINWeb-Medium;
+  src: url("/fonts/DINWeb-Medium.eot"); }
+
+@font-face {
+  font-family: DINWeb-Medium;
+  src: url("/fonts/DINWeb-Medium.woff") format("woff"); }
+
 .chapter-heading {
   position: relative; }
 
 .chapter-heading-text {
+  bottom: 2em;
   position: absolute;
-  top: 0;
   width: 100%; }
+  .chapter-heading-text h1 {
+    color: #fcfcfc;
+    font: 3.5em DINWeb-Medium, sans-serif;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+  .chapter-heading-text p {
+    color: #fcfcfc;
+    font: 1.1em "adobe-garamond-pro", sans-serif;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2); }
+    .chapter-heading-text p span.grayed {
+      color: #cccccc; }
+    .chapter-heading-text p span.larger.italic {
+      font-size: 1.1em;
+      font-style: italic; }
 
 .chapter-content {
-  font-family: serif;
+  font-family: adobe-garamond-pro, sans-serif;
   padding-top: 3em; }
   .chapter-content p {
     color: #444444; }
+  .chapter-content div.row:first-child p:first-child:first-letter {
+    float: left;
+    font-size: 3.2em;
+    line-height: 0.6em;
+    padding: 10px; }
+  .chapter-content h3.media-title {
+    color: #4d4d4d;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-transform: uppercase; }
+  .chapter-content a.modal {
+    background: #e4e4e4;
+    border-radius: 10px 10px 10px 10px;
+    color: #444444;
+    padding: 0 0.5em;
+    transition: background-color 1s ease;
+    white-space: nowrap; }
+    .chapter-content a.modal:after {
+      content: " +"; }
+    .chapter-content a.modal:hover {
+      background: #629ecd; }
+  .chapter-content p.blockquote {
+    font-size: 1.3em;
+    font-style: italic; }
+  .chapter-content hr {
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #818181;
+    margin-right: 8em;
+    margin-left: 4em;
+    margin-bottom: 2em; }
+
+#chapter1 h3.media-title {
+  text-align: right; }
+
+#multigraph svg {
+  height: 300px; }
