@@ -11,6 +11,8 @@ $content-color: #444
   font-family: DINWeb-Medium
   src: url("/fonts/DINWeb-Medium.woff") format("woff")
 
+// heading
+/////////////////////////////////////////////////////////////////////////////////
 .chapter-heading
   position: relative
 
@@ -35,6 +37,8 @@ $content-color: #444
       font-size: 1.1em
       font-style: italic
 
+// content
+/////////////////////////////////////////////////////////////////////////////////
 .chapter-content
   font-family: adobe-garamond-pro, sans-serif
   padding-top: 3em
@@ -82,7 +86,24 @@ $content-color: #444
       left: 4em
       bottom: 2em
 
+// modals
+/////////////////////////////////////////////////////////////////////////////////
+.reveal-modal
+  p
+    font-family: adobe-garamond-pro, sans-serif
+  h3
+    background: #ededed
+    border-radius: 15px 15px 15px 15px
+    color: #3d3d3d
+    font-size: 1.4em
+    font-weight: normal
+    margin-bottom: 1em
+    padding-left: 0.5em
+    &:before
+      content: '+ '
+
 // chapter 1
+/////////////////////////////////////////////////////////////////////////////////
 #chapter1
   h3.media-title
     text-align: right

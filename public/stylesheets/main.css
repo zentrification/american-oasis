@@ -4386,6 +4386,19 @@ a.th {
     margin-left: 4em;
     margin-bottom: 2em; }
 
+.reveal-modal p {
+  font-family: adobe-garamond-pro, sans-serif; }
+.reveal-modal h3 {
+  background: #ededed;
+  border-radius: 15px 15px 15px 15px;
+  color: #3d3d3d;
+  font-size: 1.4em;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding-left: 0.5em; }
+  .reveal-modal h3:before {
+    content: "+ "; }
+
 #chapter1 h3.media-title {
   text-align: right; }
 
