@@ -4335,6 +4335,9 @@ a.th {
   bottom: 3em;
   position: absolute;
   width: 100%; }
+  @media screen and (min-width: 1440px) {
+    .chapter-heading-text {
+      bottom: 10em; } }
   .chapter-heading-text h1 {
     color: #fcfcfc;
     font: 3.5em DINWeb-Medium, sans-serif;
