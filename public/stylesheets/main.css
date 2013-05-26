@@ -4340,10 +4340,16 @@ a.th {
     font: 3.5em DINWeb-Medium, sans-serif;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
     text-transform: uppercase; }
+    @media screen and (max-width: 769px) {
+      .chapter-heading-text h1 {
+        font-size: 2.5em; } }
   .chapter-heading-text p {
     color: #fcfcfc;
     font: 1.1em "adobe-garamond-pro", sans-serif;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2); }
+    @media screen and (max-width: 769px) {
+      .chapter-heading-text p {
+        font-size: 1em; } }
     .chapter-heading-text p span.grayed {
       color: #cccccc; }
     .chapter-heading-text p span.larger.italic {
