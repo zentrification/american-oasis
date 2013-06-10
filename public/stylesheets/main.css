@@ -4774,9 +4774,9 @@ a.th {
 
 .chapter-content {
   font-family: adobe-garamond-pro, sans-serif;
-  padding-top: 3em; }
+  padding-top: 3.5em; }
   .chapter-content p {
-    color: #444444; }
+    color: #555555; }
   .chapter-content div.row:first-child p:first-child:first-letter {
     float: left;
     font-size: 3.2em;
@@ -4784,13 +4784,13 @@ a.th {
     padding: 10px; }
   .chapter-content h3.media-title {
     color: #4d4d4d;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: normal;
     text-transform: uppercase; }
   .chapter-content a.modal {
     background: #e4e4e4;
     border-radius: 10px 10px 10px 10px;
-    color: #444444;
+    color: #555555;
     padding: 0 0.5em;
     transition: background-color 1s ease;
     white-space: nowrap; }
