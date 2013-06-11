@@ -1,0 +1,33 @@
+// position heading relative so we can absolutely position the text within it
+.chapter-heading
+  position: relative
+
+// img in the heading will determine the box
+.chapter-heading-text
+  bottom: 20%
+  position: absolute
+  width: 100%
+
+  h1
+    color: #fcfcfc
+    font: 3.5em dinweb-medium, sans-serif
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5)
+    text-transform: uppercase
+
+  p
+    color: #fcfcfc
+    font: 1.1em "adobe-garamond-pro", sans-serif
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2)
+
+  // drop font-size on small devices
+  @media screen and (max-width: 769px)
+    h1
+      font-size: 2.5em
+    p
+      font-size: 1em
+
+  span.grayed
+    color: #cccccc
+
+  em.larger
+    font-size: 1.1em

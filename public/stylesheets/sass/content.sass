@@ -1,0 +1,42 @@
+.chapter-content
+  font-family: adobe-garamond-pro, sans-serif
+  padding-top: 3.5em
+
+  p
+    color: $content-color
+
+  // dropcap on first letter of first paragraph
+  div.row:first-child p:first-child:first-letter
+    float: left
+    font-size: 3.2em
+    line-height: 0.6em
+    padding: 10px
+
+  h3.media-title
+    color: #4d4d4d
+    font-size: 1.3em
+    font-weight: normal
+    text-transform: uppercase
+
+  // customize modal links
+  a.modal
+    background: #e4e4e4
+    border-radius: 10px 10px 10px 10px
+    color: $content-color
+    padding: 0 0.5em
+    transition: background-color 1s ease
+    white-space: nowrap
+    &:after
+      content: ' +'
+    &:hover
+      background: #629ecd
+
+  // customize line breaks
+  hr
+    border-bottom: 1px solid #e3e3e3
+    border-top: 1px solid #818181
+    // media query this
+    margin:
+      right: 8em
+      left: 4em
+      bottom: 2em
