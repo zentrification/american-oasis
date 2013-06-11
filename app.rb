@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  slim :home
+  slim :'chapters/home'
 end
 
 get '/chapters/:page' do
