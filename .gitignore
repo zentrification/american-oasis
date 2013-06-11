@@ -1,4 +1,5 @@
 .sass-cache
-public/stylesheets/main.css
-public/stylesheets/normalize.css
-public/stylesheets/foundation.css
+# ignore CSS generated from SASS
+public/stylesheets/*.css
+public/stylesheets/vendor/normalize.css
+public/stylesheets/vendor/foundation.css
