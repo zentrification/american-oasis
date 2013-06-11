@@ -10,7 +10,7 @@ div#chapter1
             em.larger "This is what we live for here," he says, raising both hands, palms upward. "I am loving it."
 
   div.chapter-content
-    // First Section
+    // tuscon arizona map section
     div.row
       div.columns.large-16
         p.first It never snows in Tucson. It doesn’t even rain much, about 11 inches a year, so precipitation of any kind makes Tucsonans a little giddy. But the light in Lancaster’s eyes is dierent. He sees water falling from the sky as the key to his city’s future, nothing less than its salvation.
@@ -24,7 +24,7 @@ div#chapter1
         img src="/images/chapter1/map.jpg"
         h3.media-title Tuscon, Arizona
 
-    // Second Section
+    // nv.d3 multigraph section
     div.row
       div.columns.large-16
         hr
@@ -33,13 +33,12 @@ div#chapter1
           'But that lifestyle is built on sand. For more than 100 years, Tucson has been pumping water out of the aquifer beneath it faster than the water has been replenished. e city has sucked up so much of its groundwater that parts of Tucson and the surrounding area are literally sinking, some spots as much as 12 feet. Subsidence has cracked foundations and shifted walls as a thirsty city has drilled ever deeper into the ground
           a.modal href="#" data-reveal-id="chapter1-modal2" in search of freshwater.
 
-
       div.columns.large-9
         h3.media-title Multi Graph
         div#multigraph
           svg
 
-    // Third Section
+    // sinking aquifer infographic section
     div.row
       div.columns.large-9
         p The Santa Cruz River, once the heart of Tucson, is now a dry wash. For all but a few days every year, it is a casualty of the falling water table. For at least 4,000 years, the river provided the basis for a rich river oasis culture. Native people were channeling its water through a system of canals to irrigate maize and other crops when Europe was still sunk in the dark ages. Later, it was one of the original draws for both Hispanic and American settlers. Today, calling it a river is mostly an act of nostalgia.
@@ -49,9 +48,10 @@ div#chapter1
         h3.media-title A Sinking Aquifer
         img src="/images/chapter1/infographic.jpg"
 
-    // Fourth Section
-    div.row : div.columns.large-12 : hr
+    // line break above video
+    div.row : div.columns.large-25 : hr
 
+    // video and pullquote
     div.row
       div.columns.large-9
         img src="http://placehold.it/450x200/fad9a1&text=video"
@@ -61,4 +61,21 @@ div#chapter1
           '"By 2025, if people continue to live the way they are, I don't think we can support it, and if growth continues as it has, I don't think we can support that many people in the city of Tucson or the Santa Cruz River Valley," says Rafael de Grenade, director of the Tucson Oasis Initiative.
           strong "We're reaching a tipping point."
 
-    div.row : div.columns.large-12 : hr
+    // line break below video
+    div.row : div.columns.large-25 : hr
+
+// Modals
+/////////////////////////////////////////////////////////////////////////////////
+div#chapter1-modal1.reveal-modal.medium
+  h3 Less than one percent is usable freshwater
+  p For most of human history that 1 percent was plenty, but the situation has changed as the global population has mushroomed. As recently as 1950, there were less than 3 billion people on the planet. By 2050, however, it’s estimated there will be more than 9 billion and, as the world prospers, those people are using more water than ever.
+  img.right src="http://placehold.it/450x200/fad9a1&text=image"
+  p In Saudi Arabia, for example, wells now have to be dug 4,000 feet deep or more in some areas to tap a rapidly shrinking aquifer. In neighboring Yemen the water table is falling nine feet a year. In Spain and the American Midwest agricultural use is draining huge aquifers that originally took many thousands of years to ll.
+  p Altogether, 1.7 billion people live in parts of the world where groundwater supplies are being overtaxed, according to one study
+
+div#chapter1-modal2.reveal-modal.medium
+  h3 In search of freshwater
+  p Once the Santa Cruz stopped owing year around, Tucson depended exclusively on the aquifer below the city for its water until the 1990s.
+  img.right src="http://placehold.it/300x200/fad9a1&text=image"
+  p Since then, it has been connected to the Central Arizona Project, which draws water from the Colorado River for much of Arizona. To reach Tucson, CAP water, as it is known, travels more than 350 miles via an open-air canal.  About 5 percent of the water is lost through evaporation or seepage. 
+  p The project originally cost $3.6 billion to construct. It's not only the largest supplier of water in the state, it is the biggest user of electricity in Arizona, and the water is heavy with minerals.

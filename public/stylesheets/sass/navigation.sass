@@ -1,0 +1,22 @@
+// fix navigation bar at bottom of viewport above all other content
+#navigation
+  background: black
+  color: white
+  bottom: 0
+  left: 0
+  position: fixed
+  width: 100%
+  z-index: 100
+
+  // links should take up entire vertical area
+  ul
+    margin-bottom: 0
+
+  a
+    color: #fdfdfd
+    display: block
+    font-family: adobe-garamond-pro, sans-serif
+    font-variant: small-caps
+    padding: 0.5em
+    &:hover
+      color: #b7c6f0
