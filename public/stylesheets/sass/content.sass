@@ -1,10 +1,11 @@
+// meh on using this
+.pad-top-1
+  padding-top: 1em
+
 .chapter-content
   font-family: adobe-garamond-pro, sans-serif
   // pad bottom to account for navigation bar
-  padding: 3.5em 0 2em 0
-
-  p
-    color: $content-color
+  padding: 3.5em 0 4em 0
 
   // dropcap on first letter of first paragraph
   div.row:first-child p:first-child:first-letter
@@ -12,13 +13,6 @@
     font-size: 3.2em
     line-height: 0.6em
     padding: 10px
-    text-transform: uppercase
-
-  h3.media-title
-    color: #4d4d4d
-    font-size: 1.3em
-    font-weight: normal
-    text-align: right
     text-transform: uppercase
 
   // customize modal links
@@ -34,6 +28,22 @@
     &:hover
       background: #629ecd
 
+  // blockquote at the bottom next to the video
+  blockquote
+    border-left: none
+    color: $content-color
+    font-size: 1.5em
+    font-style: italic
+    padding: 0
+    margin-bottom: 0
+
+  h3.media-title
+    color: #4d4d4d
+    font-size: 1.3em
+    font-weight: normal
+    text-align: right
+    text-transform: uppercase
+
   // customize line breaks
   hr
     border-bottom: 1px solid #e3e3e3
@@ -44,11 +54,6 @@
       left: 4em
       bottom: 1em
 
-  // blockquote at the bottom next to the video
-  blockquote
-    border-left: none
+  p
     color: $content-color
-    font-size: 1.5em
-    font-style: italic
-    padding: 0
-    margin-bottom: 0
+
