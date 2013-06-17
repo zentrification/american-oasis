@@ -1,0 +1,49 @@
+GALLERY IMAGE DESCRIPTIONS
+
+001-CHILDHOOD : Brad in a bird bath
+002-CHILDHOOD : Brad and his father by a lake
+003-CHILDHOOD : Dad, Rodd, and Brad in a boat
+004-CHILDHOOD : "Freakies in water"
+005-CHILDHOOD : Lancaster Family in Taos
+006-CHILDHOOD : Brad and Hunter in Madawaska Island 
+
+001-BRAD_TRAVEL : Avdat, Israel 2009
+002-BRAD_TRAVEL : Evenari runoff farm with rock check dams, Avdat, Israel 2009
+003-BRAD_TRAVEL : Palestine
+004-BRAD_TRAVEL : Palestine
+005-BRAD_TRAVEL : Waterharvesting in Jordan and Avdat
+006-BRAD_TRAVEL : Three instructors of 2010 Permaculture Course in Palestine
+
+001-TUMAMOC : A view of Tucson from the top of Tumamoc Hill
+002-TUMAMOC : Brad talking with the Fish's
+003-TUMAMOC : Brad overlooking Tucson
+004-TUMAMOC : Brad checking out an ancient petroglyph
+005-TUMAMOC : A petroglyph of the sun 
+006-TUMAMOC : Brad and the Fish's on top of Tumamoc Hill
+007-TUMAMOC : Desert Laboratory on top of Tumamoc Hill
+008-TUMAMOC : Abandoned obveritory on top of Tumamoc Hill
+
+001-MEXICO : Brad Landcaster standing just outside Ignacio's orchard
+002-MEXICO : Jesus singing about water and playing guitar
+003-MEXICO : Handmade canal bringing water into the orchard
+004-MEXICO : Ignacio leaning against his groto
+005-MEXICO : Ignacio
+006-MEXICO : Brad and Jesus standing in a dried up section of canal
+007-MEXICO : Fruit hanging from orchard trees
+008-MEXICO : Jesus pealing fresh Grapefruit with his pocket knife
+009-MEXICO : From left to right, Jesus, Ignacio, Brad
+010-MEXICO : Prickley Pear cactus next to a dried up canal
+011-MEXICO : In Mexico, parts of the Santa Cruz River still flows with water
+012-MEXICO : Brad thrilled to see water in the Santa Cruz River
+
+001-OLD_DUNBAR : The Landcaster's property in 1994 with barren sidewalks
+002-OLD_DUNBAR : The Landcaster's property in 1994 with barren sidewalks
+003-OLD_DUNBAR : The Landcaster's property in 1996 with barren sidewalks
+
+001-CURB_CUTS : DIY curb cuts
+002-CURB_CUTS : DIY curb cuts
+003-CURB_CUTS : Professional curb cuts
+004-CURB_CUTS : Professional curb cuts
+005-CURB_CUTS : Two mesquite trees watered by curb cuts and runoff
+006-CURB_CUTS : Streetside water harvesting basins
+
