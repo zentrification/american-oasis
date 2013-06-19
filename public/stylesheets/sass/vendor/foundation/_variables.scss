@@ -641,14 +641,23 @@ $total-columns: 25;
 // $orbit-caption-bg-old: rgb(0,0,0);
 // $orbit-caption-bg: rgba(0,0,0,0.6);
 // $orbit-caption-font-color: #fff;
+$orbit-container-bg: transparent;
+$orbit-caption-bg-old-browser: #e5e7e5;
+$orbit-caption-bg-old: #e5e7e5;
+$orbit-caption-bg: #e5e7e5;
+$orbit-caption-font-color: #333;
 
 // We use these to control the left/right nav styles
 // $orbit-nav-bg-old: rgb(0,0,0);
 // $orbit-nav-bg: rgba(0,0,0,0.6);
+$orbit-nav-bg-old: rgb(255,255,255);
+$orbit-nav-bg: rgba(255,255,255,0.6);
 
 // We use these to control the timer styles
 // $orbit-timer-bg-old: rgb(0,0,0);
 // $orbit-timer-bg: rgba(0,0,0,0.6);
+$orbit-timer-bg-old: rgb(255,255,255);
+$orbit-timer-bg: rgba(255,255,255,0.6);
 
 // We use these to control the bullet nav styles
 // $orbit-bullet-nav-color: #999;
