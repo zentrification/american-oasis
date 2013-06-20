@@ -83,9 +83,11 @@ $em-base: 16px !default;
 // Grid Variables
 //
 
-$row-width: emCalc(1000px);
+//$row-width: emCalc(1000px);
+$row-width: 1000px;
 // $column-gutter: emCalc(30px);
-$column-gutter: emCalc(12px);
+//$column-gutter: emCalc(12px);
+$column-gutter: 12px;
 $total-columns: 25;
 
 //
