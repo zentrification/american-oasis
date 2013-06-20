@@ -41,11 +41,16 @@ span.tooltip
     color: $content-color
     padding: 0 0.5em
     transition: background-color 1s ease
-    white-space: nowrap
+    //white-space: nowrap
     &:after
       content: ' +'
     &:hover
       background: #629ecd
+    &.block
+      display: block
+      border-radius: 0 0 0 0
+      padding: 1em 1em 4em 1em
+      font-variant: small-caps
 
   // blockquote at the bottom next to the video
   blockquote
@@ -69,8 +74,12 @@ span.tooltip
     border-top: 1px solid #818181
     margin:
       bottom: 1em
-      right: 5%
-      left: 5%
+      right: 2.5em
+      left: 2.5em
+    &.right-5
+      margin-right: 5em
+    &.left-5
+      margin-left: 5em
 
   p
     color: $content-color
