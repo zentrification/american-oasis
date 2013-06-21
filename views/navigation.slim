@@ -1,11 +1,10 @@
 div#navigation
+  - text = ['Introduction', 'Chapter One', 'Chapter Two', 'Chapter Three', 'Chapter Four', 'Chapter Five', 'Chapter Six']
   div.row
     div.columns.large-25
       ul.inline-list
-        li : a href="/" Introduction
-        li : a href="/chapters/1" Chapter One
-        li : a href="/chapters/2" Chapter Two
-        li : a href="/chapters/3" Chapter Three
-        li : a href="/chapters/4" Chapter Four
-        li : a href="/chapters/5" Chapter Five
-        li : a href="/chapters/6" Chapter Six
+        - text.each_with_index do |chapter_title, index|
+          - if @page.to_i == index
+            li : a.active href="/chapters/#{index}" = chapter_title
+          - else
+            li : a href="/chapters/#{index}" = chapter_title

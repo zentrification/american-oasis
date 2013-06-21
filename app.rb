@@ -6,6 +6,7 @@ get '/' do
 end
 
 get '/chapters/:page' do
-  page = 'chapters/chapter' + params[:page]
-  slim page.to_sym
+  @page = params[:page]
+  file_location = 'chapters/chapter' + @page
+  slim file_location.to_sym
 end
