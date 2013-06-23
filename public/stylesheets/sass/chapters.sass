@@ -12,22 +12,21 @@
 #chapter6 .chapter-heading-text
   bottom: 10%
 
+// hide controls and timeline on background video
+.fp-ui
+  display: none
+.flowplayer.is_paused
+  background: none
+
 #chapter1
   // explicit height for nv.d3 graph
   #multigraph svg
     height: 300px
 
-  // hide controls and timeline on background video
-  .fp-ui
-    display: none
-
   .flowplayer
     position: absolute
     top: 0
     width: 100%
-
-  .flowplayer.is_paused
-    background: none
 
 #chapter3
   #before_after
