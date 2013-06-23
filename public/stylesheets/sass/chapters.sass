@@ -19,6 +19,27 @@
 
 #chapter3,
 #chapter6
+  ul.bios
+    li
+      display: inline
+      float: left
+      margin: 0
+      height: 174px
+    img
+      // 12px of padding on 360px wide containing div
+      width: 174px
+    a
+      position: relative
+      &:after
+        bottom: 0
+        color: white
+        content: '+'
+        font-size: 2em
+        right: 10px
+        position: absolute
+
+#chapter3,
+#chapter6
   // customize display of zurb clearing
   ul.clearing-thumbs
     li
