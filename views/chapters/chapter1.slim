@@ -8,11 +8,11 @@ div#chapter1
             span.grayed On a gray February afternoon, a miserable mix of rain and damp snow is tumbling out of gray clouds in Tuscon, Arizona, as Brad Lancaster stands in front of his home, welcoming every ice-cold drop.
             em.larger "This is what we live for here," he says, raising both hands, palms upward. "I am loving it."
 
-    img src="/images/headings/chapter1.jpg"
     div.flowplayer.is_splash.minimalist data-ratio='0.5'
-      video autoplay='' loop=''
+      video autoplay=true loop=true poster="/images/headings/chapter1.jpg"
+        source type="video/webm"  src="/images/headings/chapter1.webm"
+        source type="video/mp4"   src="/images/headings/chapter1.mp4"
         source type="video/flash" src="/images/headings/chapter1.flv"
-        source type="video/mp4" src="/images/headings/chapter1.mp4"
 
   div.chapter-content
     // tuscon arizona map section
@@ -51,7 +51,7 @@ div#chapter1
         p Yet if Tucson stands as an example of a looming crisis, Brad Lancaster believes it can also offer a solution – an answer that draws not on some revolutionary new technology, but on traditional practices that made the region’s long history of habitation possible.  Can the old world really save the new? e man standing in the snow like a slightly mad prophet is determined it can. 
 
       div.columns.large-16
-        h3.media-title A Sinking Aquifer
+        //h3.media-title A Sinking Aquifer
         iframe width="628" height="471" src="http://player.vimeo.com/video/68419041" frameborder="0" allowFullScreen="" mozallowfullscreen="" webkitAllowFullScreen=""
 
     // line break above video
@@ -69,6 +69,14 @@ div#chapter1
 
     // line break below video
     div.row : div.columns.large-25 : hr.right-5.left-5
+
+    div.row
+      div.columns.large-25
+        h2.next-link
+          a href="/chapters/2"
+            'Next - The Water Warrior
+            span &rarr;
+
 
 // Modals
 /////////////////////////////////////////////////////////////////////////////////

@@ -5,9 +5,9 @@ div#chapter3
         div.columns.large-15
           h1 Looking Back to Move Forward
 
-    img src="/images/headings/chapter3.jpg"
     div.flowplayer.is_splash.minimalist data-ratio='0.5'
-      video autoplay='' loop=''
+      video autoplay=true loop=true poster="/images/headings/chapter3.jpg"
+        source type="video/webm"  src="/images/headings/chapter3.webm"
         source type="video/flash" src="/images/headings/chapter3.flv"
         source type="video/mp4" src="/images/headings/chapter3.mp4"
 
@@ -157,6 +157,13 @@ div#chapter3
             div#before_after
               img src="/images/chapter3/before.png"
               img src="/images/chapter3/after.png"
+
+    div.row
+      div.columns.large-25
+        h2.next-link
+          a href="/chapters/4"
+            'Next - The Backyard Solution
+            span &rarr;
 
 // Modals
 /////////////////////////////////////////////////////////////////////////////////
