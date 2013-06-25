@@ -3,6 +3,8 @@ require 'sass/plugin/rack'
 require 'slim'
 require './app'
 
+use Rack::Deflater
+
 use Sass::Plugin::Rack
 
 Slim::Engine.default_options[:pretty] = true

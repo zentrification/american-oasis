@@ -9,10 +9,10 @@ div#chapter4
           p “We didn’t have jobs that any bank would recognize and certainly didn’t have income that a bank would recognize,” Lancaster says, “so we had to get in on this together, and even then the only thing could afford was something that was about to be condemned.”
 
     div.flowplayer.is_splash.minimalist data-ratio='0.5'
-      video autoplay=true loop=true poster="/images/headings/chapter4.jpg"
-        source type="video/webm"  src="/images/headings/chapter4.webm"
-        source type="video/flash" src="/images/headings/chapter4.flv"
-        source type="video/mp4" src="/images/headings/chapter4.mp4"
+      video autoplay=true loop=true poster="#{@cloudfront}/images/headings/chapter4.jpg"
+        source type="video/webm"  src="#{@cloudfront}/images/headings/chapter4.webm"
+        source type="video/flash" src="#{@cloudfront}/images/headings/chapter4.flv"
+        source type="video/mp4" src="#{@cloudfront}/images/headings/chapter4.mp4"
 
   div.chapter-content
     div.row
@@ -26,15 +26,15 @@ div#chapter4
         p At first they didn’t succeed. “We kept undersizing everything initially,” Lancaster remembers. “We were just sort of winging it.” The street they had moved to was like much of Tucson, a largely barren streetscape where asphalt and a lack of shade pushed the already scorching summer temperatures up another ten degrees or more.
       div.columns.large-9
         div.pad-top-2
-          ul data-orbit=true
+          ul data-orbit=true data-options='timer_speed:0'
             li
-              img src="/images/chapter4/gallery1/001-old_dunbar.jpg"
+              img src="#{@cloudfront}/images/chapter4/gallery1/001-old_dunbar.jpg"
               div.orbit-caption The Landcaster's property in 1994 with barren sidewalks
             li
-              img src="/images/chapter4/gallery1/002-old_dunbar.jpg"
+              img src="#{@cloudfront}/images/chapter4/gallery1/002-old_dunbar.jpg"
               div.orbit-caption The Landcaster's property in 1994 with barren sidewalks
             li
-              img src="/images/chapter4/gallery1/003-old_dunbar.jpg"
+              img src="#{@cloudfront}/images/chapter4/gallery1/003-old_dunbar.jpg"
               div.orbit-caption The Landcaster's property in 1996 with barren sidewalks
 
     div.row
@@ -140,7 +140,7 @@ div#chapter4-modal1.reveal-modal.medium
 
 div#chapter4-modal2.reveal-modal.medium
   h3.modal-title Rain and Greywater
-  p : img src="/images/chapter4/infographic.jpg"
+  p : img src="#{@cloudfront}/images/chapter4/infographic.jpg"
   p "Greywater," or water that has been used for washing or other purposes, is also recycled and used as an important secondary source for irrigation.
   p "This is the neighborhood laundromat," Lancaster says during a tour, proudly opening the door to the small shed to reveal a washing machine that several families on the block use. On one wall are a set of carefully labeled pipes that channel the grey water from the machine on the trees or other parts of the yard where it's needed.
 

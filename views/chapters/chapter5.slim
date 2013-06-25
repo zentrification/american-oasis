@@ -12,10 +12,10 @@ div#chapter5
           p As unlikely as it seems, for a few days every summer Tucson becomes Venice without the gondolas.
 
     div.flowplayer.is_splash.minimalist data-ratio='0.5'
-      video autoplay=true loop=true poster="/images/headings/chapter5.jpg"
-        source type="video/webm"  src="/images/headings/chapter5.webm"
-        source type="video/flash" src="/images/headings/chapter5.flv"
-        source type="video/mp4" src="/images/headings/chapter5.mp4"
+      video autoplay=true loop=true poster="#{@cloudfront}/images/headings/chapter5.jpg"
+        source type="video/webm"  src="#{@cloudfront}/images/headings/chapter5.webm"
+        source type="video/flash" src="#{@cloudfront}/images/headings/chapter5.flv"
+        source type="video/mp4" src="#{@cloudfront}/images/headings/chapter5.mp4"
 
   div.chapter-content
     div.row
@@ -29,24 +29,24 @@ div#chapter5
           strong “It wasn’t strictly legal.”
       div.columns.large-9
         div.pad-top-2
-          ul data-orbit=true
+          ul data-orbit=true data-options='timer_speed:0'
             li
-              img src="/images/chapter5/gallery1/001-curb_cuts.jpg"
+              img src="#{@cloudfront}/images/chapter5/gallery1/001-curb_cuts.jpg"
               div.orbit-caption DIY curb cuts
             li
-              img src="/images/chapter5/gallery1/002-curb_cuts.jpg"
+              img src="#{@cloudfront}/images/chapter5/gallery1/002-curb_cuts.jpg"
               div.orbit-caption DIY curb cuts
             li
-              img src="/images/chapter5/gallery1/003-curb_cuts.jpg"
+              img src="#{@cloudfront}/images/chapter5/gallery1/003-curb_cuts.jpg"
               div.orbit-caption Professional curb cuts
             li
-              img src="/images/chapter5/gallery1/004-curb_cuts.jpg"
+              img src="#{@cloudfront}/images/chapter5/gallery1/004-curb_cuts.jpg"
               div.orbit-caption Professional curb cuts
             li
-              img src="/images/chapter5/gallery1/005-curb_cuts.jpg"
+              img src="#{@cloudfront}/images/chapter5/gallery1/005-curb_cuts.jpg"
               div.orbit-caption Two mesquite trees watered by curb cuts and runoff
             li
-              img src="/images/chapter5/gallery1/006-curb_cuts.jpg"
+              img src="#{@cloudfront}/images/chapter5/gallery1/006-curb_cuts.jpg"
               div.orbit-caption Streetside water harvesting basins
 
     div.row
@@ -72,7 +72,7 @@ div#chapter5
         p Lancaster’s street has been transformed, but just as important to him, is the transformation in attitudes, the way the tree plantings and other efforts brought people together.
       div.columns.large-12
         a href="#" data-reveal-id="chapter5-modal1"
-          img src="/images/chapter5/infographic.jpg"
+          img src="#{@cloudfront}/images/chapter5/infographic.jpg"
 
     div.row
       div.columns.large-16
@@ -93,4 +93,4 @@ div#chapter5
 // Modals
 /////////////////////////////////////////////////////////////////////////////////
 div#chapter5-modal1.reveal-modal.medium
-  img src="/images/chapter5/infographic.jpg"
+  img src="#{@cloudfront}/images/chapter5/infographic.jpg"
