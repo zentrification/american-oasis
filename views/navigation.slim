@@ -1,10 +1,9 @@
 div#navigation
-  - text = ['Chapter One', 'Chapter Two', 'Chapter Three', 'Chapter Four', 'Chapter Five', 'Chapter Six', 'Credits']
+  - text = ['Introduction', 'Chapter One', 'Chapter Two', 'Chapter Three', 'Chapter Four', 'Chapter Five', 'Chapter Six', 'Credits']
   div.row
     div.columns.large-25
       ul.inline-list
         - text.each_with_index do |chapter_title, index|
-          - index = index + 1
           - if @page.to_i == index
             li : a.active href="/chapters/#{index}" = chapter_title
           - else
