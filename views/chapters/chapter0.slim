@@ -2,11 +2,13 @@ div#chapter0
   div.title
     img src="/images/chapter0/overlay-title.png"
     br
-    a href="#"
+    a#play-intro href="#"
       img.play src="/images/chapter0/overlay-play.png"
     a href="/chapters/1"
       img.skip src="/images/chapter0/overlay-skip.png"
   div.flowplayer.is_splash.minimalist data-ratio='0.564'
     video autoplay=true loop=true poster="#{@cloudfront}/images/headings/chapter0.jpg"
-      //source type="video/webm" src="#{@cloudfront}/images/headings/chapter0.webm"
+      source type="video/webm" src="#{@cloudfront}/images/headings/chapter0.webm"
       source type="video/mp4"  src="#{@cloudfront}/images/headings/chapter0.mp4"
+    div.fp-playlist
+      a href="#{@cloudfront}/images/headings/chapter0-introduction.webm"
